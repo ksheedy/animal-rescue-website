@@ -48,11 +48,16 @@ a:hover {
   outline: 3px solid #01584f;
 }
 
-.top-banner {
-  background-image: url("../images/top-banner.jpg")
+.banner {
+  background-image: linear-gradient(to top, rgba(0, 152, 137, 0), rgba(0, 152, 137, .8)), url("../images/top-banner.jpg");
+  background-size: 100% 100%, cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-bottom: solid 3px #009889;
+  padding-top: 75%;
 }
 
-.top-banner h2, .top-banner p {
+.banner h2, .banner p {
   color: #fff;
 }
 
@@ -94,4 +99,12 @@ a:hover {
 
 .nav-bottom a:focus {
   outline: 3px solid #01584f;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner {
+    padding-top: 33.33%;
+  }
+
 }
