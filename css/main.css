@@ -77,9 +77,15 @@ a:hover {
   border-color: #01584f;
 }
 
+.form {
+  border: solid 2px #009889;
+  border-radius: .25em;
+}
+
 .footer {
   background-color: #cae8e4;
   color: #fff;
+  border-top: solid 3px #009889;
 }
 
 .nav-bottom {
@@ -90,6 +96,7 @@ a:hover {
 .nav-bottom a {
   color: #009889;
   text-decoration: none;
+  border-radius: .25em;
 }
 
 .nav-bottom a:hover {
@@ -99,6 +106,26 @@ a:hover {
 
 .nav-bottom a:focus {
   outline: 3px solid #01584f;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  background-image: url("../images/social-media-icons.svg");
+  background-repeat: no-repeat;
+  color: #000;
+}
+
+.icon-twitter {
+  background-position: 0 0;
+}
+
+.icon-facebook {
+  background-position: 100px 0;
+}
+
+.icon-instagram {
+  background-position: 200px 0;
 }
 
 @media only screen and (min-width: 38em) {
