@@ -1,4 +1,8 @@
 html {
+  font-family: sans-serif;
+}
+
+h1, h2, h3 {
   font-family: 'Archivo Black', sans-serif;
 }
 
@@ -37,12 +41,21 @@ a:hover {
 
 .nav a:hover {
   background-color: #fff;
-  color: #000;
+  color: #01584f;
 }
 
 .nav a:focus {
   outline: 3px solid #01584f;
 }
+
+.top-banner {
+  background-image: url("../images/top-banner.jpg")
+}
+
+.top-banner h2, .top-banner p {
+  color: #fff;
+}
+
 
 .contact {
   background-color: #fff;
