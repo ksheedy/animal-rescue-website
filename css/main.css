@@ -61,9 +61,12 @@ a:hover {
   color: #fff;
 }
 
+.read-more {
+  color: #009889;
+}
 
-.newsletter {
-  background-color: #fff;
+.read-more:hover {
+  color: #01584f;
 }
 
 .btn {
