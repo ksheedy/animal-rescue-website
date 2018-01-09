@@ -2,7 +2,7 @@ html {
   font-family: sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'Archivo Black', sans-serif;
 }
 
@@ -109,6 +109,24 @@ a:hover {
 
 .nav-bottom a:focus {
   outline: 3px solid #01584f;
+}
+
+.adoptable:hover {
+  background-color: #cae8e4;
+}
+
+.adoptable:hover img {
+  opacity: .3;
+}
+
+.hover-box-caption {
+  z-index: -100;
+  bottom: 0;
+}
+
+.hover-box:hover .hover-box-caption {
+  bottom: 0;
+  z-index: 100;
 }
 
 @media only screen and (min-width: 38em) {
