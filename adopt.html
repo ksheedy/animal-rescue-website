@@ -49,8 +49,100 @@
       </div>
     </section>
 
-    <section>
+    <section class="pad-t-2 pad-b" id="">
+      <div class="wrapper">
+        <h2 class="push-1-2 color-brand-dark gutter-1-2">Adoption Questionnaire</h2>
+        <form class="" action="thanks.html" method="post">
+          <div class="grid">
+            <h3 class="unit [xs-1 s-1 m-1 l-1] push-0 gutter-1-2">Applicant Info</h3>
+            <div class="unit [xs-1 s-1 m-1-2 l-1-2] push gutter-1-2">
+              <label for="firstname" class="push-1-8">First Name</label>
+              <input class="form" id="firstname" type="text">
+            </div>
+            <div class="unit [xs-1 s-1 m-1-2 l-1-2] push gutter-1-2">
+              <label for="lastname" class="push-1-8">Last Name</label>
+              <input class="form" id="lastname" type="text">
+            </div>
+            <div class="unit [xs-1 s-1 m-1-2 l-1-2] push gutter-1-2">
+              <label for="phone" class="push-1-8">Phone Number</label>
+              <input class="form" id="phone" type="tel">
+            </div>
+            <div class="unit [xs-1 s-1 m-1-2 l-1-2] push gutter-1-2">
+              <label for="email" class="push-1-8">Email Address</label>
+              <input class="form" id="email" type="email" placeholder="your@email.com">
+            </div>
+          </div>
 
+          <div class="grid">
+            <h3 class="unit [xs-1 s-1 m-1 l-1] push-0 gutter-1-2">Applicant Address</h3>
+            <div class="unit [xs-1 s-1 m-1-2 l-1-2] push gutter-1-2">
+              <label for="street" class="push-1-8">Street Address</label>
+              <input class="form" id="street" type="text">
+            </div>
+            <div class="unit [xs-1 s-1 m-1-2 l-1-2] push gutter-1-2">
+              <label for="apt" class="push-1-8">Apartment or Unit</label>
+              <input class="form" id="apt" type="text">
+            </div>
+            <div class="unit [xs-1 s-1 m-1-2 l-1-2] push gutter-1-2">
+              <label for="city" class="push-1-8">City</label>
+              <input class="form" id="city" type="text">
+            </div>
+            <div class="unit [xs-1 s-1 m-1-2 l-1-2] push gutter-1-2">
+              <label for="province" class="push-1-8">Province</label>
+              <select class="form" id="province" type="text">
+                <option>---</option>
+                <option>Alberta</option>
+                <option>British Columbia</option>
+                <option>Manitoba</option>
+                <option>New Brunswick</option>
+                <option>Newfoundland</option>
+                <option>Nova Scotia</option>
+                <option>PEI</option>
+                <option>Quebec</option>
+                <option>Saskatchewan</option>
+              </select>
+            </div>
+            <div class="unit [xs-1 s-1 m-1-2 l-1-2] push gutter-1-2">
+              <label for="country" class="push-1-8">Country</label>
+              <input class="form" id="country" type="text">
+            </div>
+            <div class="unit [xs-1 s-1 m-1-2 l-1-2] push gutter-1-2">
+              <label for="postalcode" class="push-1-8">Postal Code</label>
+              <input class="form" id="postalcode" type="text">
+            </div>
+          </div>
+
+          <div class="grid">
+            <h3 class="unit [xs-1 s-1 m-1 l-1] push-0 gutter-1-2">Finding a good fit</h3>
+            <div class="unit [xs-1 s-1 m-1-2 l-1-2] push gutter-1-2">
+              <label for="residence" class="push-1-8">Type of Residence</label>
+              <select class="form" id="residence" type="text">
+                <option>---</option>
+                <option>Apartment</option>
+                <option>Condominium</option>
+                <option>House - attached</option>
+                <option>House - detached</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="unit [xs-1 s-1 m-1-2 l-1-2] push gutter-1-2">
+              <label for="household" class="push-1-8">Number of people in your household</label>
+              <input class="form" id="household" type="number" min="1" max="20">
+            </div>
+            <div class="unit [xs-1 s-1 m-1 l-1] push gutter-1-2">
+              <label for="other-animals">Do you have any other animals in your household? Please specify.</label>
+              <textarea id="other-animals" class="form" rows="8" cols="80"></textarea>
+            </div>
+            <div class="unit [xs-1 s-1 m-1 l-1] push gutter-1-2">
+              <label for="lifestyle">Please describe your lifestyle and how you will accommodate a new pet.</label>
+              <textarea id="lifestyle" class="form" rows="8" cols="80"></textarea>
+            </div>
+          </div>
+          <div class="island-1-2 unit [ xs-1 s-1 m-1-2 l-1-3 ]">
+            <button class="btn-ghost mega gutter-2" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
     </section>
 
     <section class="pad-t-2 pad-b" id="">
@@ -58,12 +150,12 @@
         <h2 class="push-1-2 color-brand-dark gutter-1-2">Sign up for our newsletter!</h2>
         <form class="grid grid-middle" method="post" action="#">
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-            <label for="name" class="push-1-8">Your name</label>
-            <input class="form" id="name" type="text" required>
+            <label for="newsletter-name" class="push-1-8">Your name</label>
+            <input class="form" id="newsletter-name" type="text" required>
           </div>
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-            <label for="email" class="push-1-8">E-mail address</label>
-            <input class="form" id="email" type="email">
+            <label for="newsletter-email" class="push-1-8">E-mail address</label>
+            <input class="form" id="newsletter-email" type="email">
           </div>
           <div class="island-1-2 unit [ xs-1 s-1 m-1-2 l-1-3 ]">
             <button class="btn mega gutter-2" type="submit">Send</button>

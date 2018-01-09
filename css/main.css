@@ -80,6 +80,18 @@ a:hover {
   border-color: #01584f;
 }
 
+.btn-ghost {
+  background-color: #cae8e4;
+  border-color: #cae8e4;
+  color: #01584f;
+}
+
+.btn-ghost:hover {
+  background-color: #01584f;
+  border-color: #01584f;
+  color: #fff;
+}
+
 .form {
   border: solid 2px #009889;
   border-radius: .25em;
