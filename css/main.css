@@ -39,6 +39,12 @@ a:hover {
   text-decoration: none;
 }
 
+.nav-bottom a {
+  color: #009889;
+  text-decoration: none;
+  border-radius: .25em;
+}
+
 .nav a:hover {
   background-color: #fff;
   color: #01584f;
@@ -108,11 +114,7 @@ a:hover {
   z-index: 2;
 }
 
-.nav-bottom a {
-  color: #009889;
-  text-decoration: none;
-  border-radius: .25em;
-}
+
 
 .nav-bottom a:hover {
   background-color: #fff;
