@@ -17,10 +17,11 @@
   <ul class="skip-links">
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href="#contentinfo">Jump to navigation</a></li>
   </ul>
   <header class="masthead" role="banner">
     <div class="wrapper text-center pad-t-1-2 pad-b-1-2 gutter-1-2">
-      <img class="ib valign-bottom push-r" src="images/narc-logo.svg" alt="">
+      <img class="ib valign-bottom push-r" src="images/narc-logo.svg" alt="logo">
       <h1 class="ib zetta inline not-bold gutter-1-2 push-0">Navan Animal Rescue Corporation</h1>
     </div>
     <nav class="nav" role="navigation" id="nav" tabindex="0">
@@ -28,14 +29,14 @@
         <ol class="mega list-group-inline push-0">
           <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="index.html">Home</a></li>
           <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="adopt.html">Adopt</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="rescues.html#foster">Foster</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="index.html#foster">Foster</a></li>
           <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="rescues.html">Available Now</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">About</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="index.html#events">About</a></li>
         </ol>
       </div>
     </nav>
   </header>
-  <main role="main">
+  <main id="main" role="main" tabindex="0">
     <section>
       <div class="banner relative">
         <div class="text-center island-2 absolute pin-c w-1">
@@ -59,11 +60,11 @@
             </div>
             <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] push padding-top-0">
               <p class="push-0 push-r-1-2">These furry friends aren't quite ready for their forever homes yet — but they will be soon!</p>
-              <a class="read-more" href="#">Read More</a>
+              <a class="read-more" href="index.html" aria-label="Read more about animals that will be available for adoption soon">Read More</a>
             </div>
             <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] push padding-top-0">
               <div class="embed embed-1by1">
-                <img class="embed-item" src="images/available-soon-01.jpg" alt="">
+                <img class="embed-item" src="images/available-soon-01.jpg" alt="Image of dog available for adoption soon">
               </div>
             </div>
           </div>
@@ -76,11 +77,11 @@
             </div>
             <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ]">
               <p class="push-0 push-r-1-2">Fosters are an integral part of the rescue process. Find our more and consider becoming an NARC foster home today!</p>
-              <a class="read-more" href="#">Read More</a>
+              <a class="read-more" aria-label="Read more about fostering an animal" href="index.html">Read More</a>
             </div>
             <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] push padding-top-0">
               <div class="embed embed-1by1">
-                <img class="embed-item" src="images/foster.jpg" alt="">
+                <img class="embed-item" src="images/foster.jpg" alt="Image of woman and dog available to foster">
               </div>
             </div>
           </div>
@@ -90,27 +91,27 @@
 
     <section class="pad-t-2">
       <div class="wrapper">
-        <h2 class="island-1-2 push-0">Upcoming Events</h2>
+        <h2 class="island-1-2 push-0" id="events">Upcoming Events</h2>
         <div class="grid gutter-1-2">
           <div class="unit [ xs-1 s-1-2 m-1-2 l-1-4 ] push padding-top-0">
             <div class="embed embed-1by1">
-              <img class="embed-item" src="images/event-01.jpg" alt="">
+              <img class="embed-item" src="images/event-01.jpg" alt="Image of picnic">
             </div>
           </div>
           <div class="unit [ xs-1 s-1-2 m-1-2 l-1-4 ] push padding-top-0 gutter-1-4">
             <h3 class="push-none">Picnic for Pups</h3>
             <p class="push-none">Join us this summer for our annual Picnic for Pups. This event features fun and games for the whole family, including all your four-legged friends.</p>
-            <a class="read-more" href="#">Read More</a>
+            <a class="read-more" href="index.html" aria-label="Read more about our Picnic for Pups event">Read More</a>
           </div>
           <div class="unit [ xs-1 s-1-2 m-1-2 l-1-4 ] push padding-top-0">
             <div class="embed embed-1by1">
-              <img class="embed-item" src="images/event-02.jpg" alt="">
+              <img class="embed-item" src="images/event-02.jpg" alt="Image of a puppy">
             </div>
           </div>
           <div class="unit [ xs-1 s-1-2 m-1-2 l-1-4 ] push padding-top-0 gutter-1-4">
             <h3 class="push-none">Puppy Yoga</h3>
             <p class="push-none">Come do downward facing dog in the company of puppies. Relax, have fun, and help us fundraise to benefit NARC.</p>
-            <a class="read-more" href="#">Read More</a>
+            <a class="read-more" href="index.html" aria-label="Read more about our Puppy Yoga event">Read More</a>
           </div>
         </div>
       </div>
@@ -138,42 +139,20 @@
 
   <footer class="footer pad-t-1-2 pad-b-1-2 relative" role="contentinfo">
     <div class="wrapper">
-      <div class="pin-tr pad-t-1-2 push-r-1-2">
-        <a class="icon-link" href="#">
-          <i class="icon i-48">
-            <svg><use xlink:href="images/icons.svg#twitter" /></svg>
-          </i>
-        </a>
-
-        <a class="icon-link" href="#">
-          <i class="icon i-48">
-            <svg><use xlink:href="images/icons.svg#instagram" /></svg>
-          </i>
-        </a>
-
-        <a class="icon-link" href="#">
-          <i class="icon i-48">
-            <svg><use xlink:href="images/icons.svg#facebook" /></svg>
-          </i>
-        </a>
-      </div>
-
       <div class="gutter-1-2">
         <nav class="nav-bottom" id="bottomnav" tabindex="0">
           <div class="gutter-1-2">
             <ol class="mega list-group push-0">
               <li><a class="ib gutter-1-2" href="index.html">Home</a></li>
               <li><a class="ib gutter-1-2" href="adopt.html">Adopt</a></li>
-              <li><a class="ib gutter-1-2" href="#">Foster</a></li>
+              <li><a class="ib gutter-1-2" href="index.html#foster">Foster</a></li>
               <li><a class="ib gutter-1-2" href="rescues.html">Available Now</a></li>
-              <li><a class="ib gutter-1-2" href="#">About</a></li>
+              <li><a class="ib gutter-1-2" href="index.html#events">About</a></li>
             </ol>
           </div>
         </nav>
       </div>
-
     </div>
-
   </footer>
 </body>
 </html>
