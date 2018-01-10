@@ -3,7 +3,7 @@ html {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: "Archivo Black", sans-serif;
 }
 
 .color-brand {
@@ -35,12 +35,12 @@ a:hover {
 }
 
 .nav a {
-  color: #009889;
+  color: #000;
   text-decoration: none;
 }
 
 .nav-bottom a {
-  color: #009889;
+  color: #000;
   text-decoration: none;
   border-radius: .25em;
 }
@@ -68,11 +68,11 @@ a:hover {
 }
 
 .read-more {
-  color: #009889;
+  color: #01584f;
 }
 
 .read-more:hover {
-  color: #01584f;
+  color: #000;
 }
 
 .btn {
@@ -113,8 +113,6 @@ a:hover {
   position: relative;
   z-index: 2;
 }
-
-
 
 .nav-bottom a:hover {
   background-color: #fff;
